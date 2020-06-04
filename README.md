@@ -1,6 +1,16 @@
 # go-tdlib
 Golang Telegram TdLib JSON bindings
 
+## Compose Internal Note
+
+To use go-tdlib correctly with SB, install tdlib, then make sure you copy the lib files & include files from tdlib to your paths.
+
+For example:
+
+```bash
+cp -r ~/go/src/github.com/QuanteriumTech/td/tdlib/lib/ /usr/local/lib/td/
+cp -r ~/go/src/github.com/QuanteriumTech/td/tdlib/include/ /usr/local/include
+```
 
 ## Introduction
 Telegram Tdlib is a complete library for creating telegram clients, it also has a simple tdjson ready-to-use library to ease
@@ -39,7 +49,7 @@ If hit any build errors, refer to [Tdlib build instructions](https://github.com/
 I'm using static linking against tdlib so it won't require to build the whole tdlib source files.
 
 ## Docker
-You can use prebuilt tdlib with following Docker image: 
+You can use prebuilt tdlib with following Docker image:
 
 ***Windows:***
 ``` shell

@@ -32571,7 +32571,7 @@ func unmarshalStatisticsGraph(rawMsg *json.RawMessage) (StatisticsGraph, error) 
 	}
 }
 
-func unmarshalUpdate(rawMsg *json.RawMessage) (Update, error) {
+func UnmarshalUpdate(rawMsg *json.RawMessage) (Update, error) {
 
 	if rawMsg == nil {
 		return nil, nil

@@ -9,8 +9,10 @@ For example:
 
 ```bash
 cp -r ~/go/src/github.com/QuanteriumTech/td/tdlib/lib/ /usr/local/lib/td/
-cp -r ~/go/src/github.com/QuanteriumTech/td/tdlib/include/ /usr/local/include
+cp -r ~/go/src/github.com/QuanteriumTech/td/tdlib/include/td /usr/local/include
 ```
+
+Also, you will need to copy the openssl & crypto dynamic and static files to /usr/local/lib/td/ to ensure a static build of the app.
 
 ## Introduction
 Telegram Tdlib is a complete library for creating telegram clients, it also has a simple tdjson ready-to-use library to ease

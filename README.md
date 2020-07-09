@@ -1,4 +1,4 @@
-# go-tdlib ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+# go-tdlib ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
 Golang [TDLib](https://github.com/tdlib/td) (Telegram Database library) wrapper for building [Telegram](https://telegram.org/) clients.
 
@@ -23,6 +23,8 @@ All the classes and functions declared in [TDlib TypeLanguage schema](https://gi
 > Installation script only available for `macOS`.
 
 > In case of build errors, refer to [TDlib build instructions](https://github.com/tdlib/td#building).
+
+> Build uses a specific version of openssl (v1.1.0) whereby `libcrypto.1.1.dylib` and `libssl.1.1.dylib` should be copied and not their generic counterpart.
 
 ### macOS
 

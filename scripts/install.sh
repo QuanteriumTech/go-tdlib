@@ -48,7 +48,6 @@ mkdir -p $lib_path
 cp -r ./lib/ $lib_path
 cp "${ssl_path}/libcrypto.a" $lib_path
 cp "${ssl_path}/libcrypto.1.1.dylib" $lib_path
-cp "${ssl_path}/libcrypto.dylib" $lib_path
 cp "${ssl_path}/libssl.a" $lib_path
 cp "${ssl_path}/libssl.1.1.dylib" $lib_path
 

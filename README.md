@@ -24,6 +24,8 @@ All the classes and functions declared in [TDlib TypeLanguage schema](https://gi
 
 > In case of build errors, refer to [TDlib build instructions](https://github.com/tdlib/td#building).
 
+> Build uses a specific version of openssl (v1.1.0) whereby `libcrypto.1.1.dylib` and `libssl.1.1.dylib` should be copied and not their generic counterpart.
+
 ### macOS
 
 Install the latest Xcode command line tools:

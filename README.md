@@ -1,4 +1,4 @@
-# go-tdlib ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+# go-tdlib ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
 Golang [TDLib](https://github.com/tdlib/td) (Telegram Database library) wrapper for building [Telegram](https://telegram.org/) clients.
 
